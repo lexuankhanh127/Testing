@@ -2,7 +2,7 @@
 #include <LiquidCrystal_I2C.h>
 #include "SparkFun_VL53L1X.h"
 
-LiquidCrystal_I2C lcd(0x27, 16, 2); // set the LCD address to 0x27 for a 16 chars and 2 line display haha
+LiquidCrystal_I2C lcd(0x27, 16, 2); // set the LCD address to 0x27 for a 16 chars and 2 line display
 SFEVL53L1X distanceSensor;
 int bestDistance = 0;
 
